@@ -6,6 +6,16 @@
     <title>Document</title>
 </head>
 <body>
-    
+
+
+    <!-- this is called event bubbling when the innermost is called first then its parent then its parent then upto the entire doc.-->
+
+    <!--- to make event delegation/capturing we just need to pass true in the last of the events in js file-->
+    <div id="first" style="padding: 100px; background-color: aquamarine;">
+        <div id="second" style="padding: 100px; background-color: blue;">
+            <div id="third" style="padding: 100px; background-color:orange; "></div>
+        </div>
+    </div>
+    <script src="./interviewPrep.js" > </script>
 </body>
 </html>
